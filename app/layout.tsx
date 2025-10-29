@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 export const metadata: Metadata = {
   title: "Sanjay Kannan | Application Developer",
   description:
-    "Portfolio of Sanjay Kannan — a results-driven Application Developer with 5+ years of experience building scalable, high-performance web applications using React, Next.js, TypeScript, and Node.js. Explore projects, skills, and professional achievements.",
+    "Portfolio of Sanjay Kannan — a results-driven Application Developer with 4+ years of experience building scalable, high-performance web applications using React, Next.js, TypeScript, and Node.js. Explore projects, skills, and professional achievements.",
 };
 
 export default function RootLayout({
