@@ -193,6 +193,8 @@ export default function ProjectsPage() {
         "Developing and maintaining scalable web and mobile applications using React.js, Vite, and React Native, with focus on performance and maintainability.",
         "Implemented server-side rendering (SSR) with React and optimized applications using code-splitting, lazy loading, and state management best practices.",
         "Collaborating with cross-functional teams and mentoring juniors to deliver efficient, high-quality solutions through Agile workflows and Azure DevOps.",
+        "Managed and mentored a team of 2–3 junior developers, guiding them through best coding practices, reviewing their work, and ensuring timely delivery of project milestones.",
+        "Actively participated in Agile ceremonies and used Azure DevOps for task management, version control, and continuous integration workflows.",
       ],
     },
     {
