@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
-
+import Image from "next/image";
 export default function Navbar() {
   return (
     <motion.nav
@@ -11,16 +11,25 @@ export default function Navbar() {
       className="sticky top-0 z-50 backdrop-blur-lg border-b border-[#30363d] bg-[#0d1117]/80"
     >
       <div className="w-full px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-3 group">
+        <Link href="/" className="flex items-center justify-center">
           <motion.div
-            whileHover={{ scale: 1.08 }}
-            className="relative flex items-center justify-center w-12 h-12 rounded-full 
-                 bg-[#0b1118] text-[#00bcd4] font-bold text-lg shadow-[inset_0_0_10px_#00bcd4]
-                 border border-[#00bcd4]/50"
+            whileHover={{
+              scale: 1.15,
+              textShadow: "0 0 15px rgba(0,188,212,0.8)",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="font-extrabold text-2xl tracking-wider text-white select-none"
           >
-            <div className="absolute inset-0 rounded-full bg-[#00bcd4]/10 blur-md"></div>
-            <span className="z-10">SK</span>
-          </motion.div>
+            <span className="text-[#00bcd4] group-hover:text-[#00e0ff] transition-colors duration-300">
+              {"<"}
+            </span>
+            <span className="text-white mx-1 group-hover:text-[#00bcd4] transition-colors duration-300">
+              /
+            </span>
+            <span className="text-[#00bcd4] group-hover:text-[#00e0ff] transition-colors duration-300">
+              {">"}
+            </span>
+          </motion.div>{" "}
         </Link>
         <div className="flex flex-row gap-10 items-center justify-between">
           <Link

@@ -176,7 +176,7 @@ export default function ProjectsPage() {
     { name: "React Native", icon: "/tech_icons/React.png" },
     { name: "Vite", icon: "/tech_icons/Vite.js.png" },
     { name: "Next.js", icon: "/tech_icons/Next.js.png" },
-    { name: "JavaScript", icon: "/tech_icons/Javascript.png" },
+    { name: "JavaScript", icon: "/tech_icons/JavaScript.png" },
     { name: "TypeScript", icon: "/tech_icons/TypeScript.png" },
     { name: "Redux", icon: "/tech_icons/Redux.png" },
     { name: "Node.js", icon: "/tech_icons/Node.js.png" },
@@ -370,7 +370,7 @@ export default function ProjectsPage() {
           Featured <span className="text-[#00bcd4]">Projects</span>
         </h2>
 
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
+        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto justify-center items-center">
           {projects.map((p, i) => (
             <motion.div
               key={i}
